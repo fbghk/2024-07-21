@@ -1,1 +1,2 @@
-var string = hello;
+var template = `template literal`;
+console.log(template);
