@@ -1,4 +1,1 @@
-console.log(score);
-var score = 80;
-score = 90;
-console.log(score);
+var person, $elem, _name, first_name, vall;
