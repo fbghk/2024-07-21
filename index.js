@@ -1,1 +1,2 @@
-var score = 100;
+char c;
+int Number;
