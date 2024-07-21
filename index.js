@@ -1,7 +1,15 @@
-var x;
-x=5;
-function foo() {}
+function foo () {
+  return
+  {}
+  // asi => return; {};
+  // 개발자 => return{};
+}
 
-if (x>1){console.log(x);}
+console.log(foo());
 
-for (var i =0; i<2; i++) {console.log(i);}
+var bar = function () {}
+(function() {})();
+
+//asi 예측 -> var bar = function () {} (function() {})();
+//개발자 예측 -> var bar = function () {}; (function() {})();
+//* Type Error: (intermediate value)(...) is not a function
