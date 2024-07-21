@@ -1,2 +1,2 @@
-var x = 3;
-var score = 100;
+var d; // NG
+var elapsedTimeInDays; // OK
