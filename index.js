@@ -1,4 +1,1 @@
-console.log(10 / 0); //Infinity
-
-console.log(10 / -0); // -Infinity
-console.log(1 * 'string'); // NaN
+var x = nan;
