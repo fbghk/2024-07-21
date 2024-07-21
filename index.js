@@ -1,3 +1,3 @@
-var first-name;
-var 1st;
-var this;
+var firstname;
+var firstName;
+var FIRSTNAME;
