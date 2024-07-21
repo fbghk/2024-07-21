@@ -1,2 +1,3 @@
-var template = `template literal`;
+var str = 'hello
+world';
 console.log(template);
