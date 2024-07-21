@@ -1,2 +1,2 @@
-var score;
 console.log(score);
+var score;
