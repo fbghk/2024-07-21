@@ -1,6 +1,5 @@
-// var first = 'ungmo';
-// var last = 'lee';
+var foo = true;
+console.log(foo);
 
-// console.log(`my name is ${first} ${last} .`);
-
-console.log('1 + 2 = ${1 + 2}');
+foo = false;
+console.log(foo);
