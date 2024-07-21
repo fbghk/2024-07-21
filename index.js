@@ -1,1 +1,1 @@
-var person, $elem, _name, first_name, vall;
+var 이름;
