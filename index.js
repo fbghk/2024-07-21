@@ -1,3 +1,2 @@
-var firstname;
-var firstName;
-var FIRSTNAME;
+var x = 3;
+var score = 100;
