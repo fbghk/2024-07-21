@@ -1,5 +1,2 @@
-var foo = true;
-console.log(foo);
-
-foo = false;
+var foo;
 console.log(foo);
