@@ -1,5 +1,5 @@
 var userId = 1;
-var userName  'Lee';
+var userName = 'Lee';
 
 var user = {id : 1, name: 'Lee'};
 
