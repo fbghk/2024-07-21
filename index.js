@@ -1,2 +1,2 @@
-var foo;
-console.log(foo);
+var foo = 'lee';
+foo = null;
