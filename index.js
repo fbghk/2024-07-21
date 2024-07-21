@@ -1,5 +1,3 @@
-//표현식인 문은 값처럼 사용할 수 있다.
-
-var foo = x = 100;
-
-console.log(foo);
+var integer = 10;
+var double = 10.12;
+var negative = -20;
