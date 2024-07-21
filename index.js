@@ -1,4 +1,4 @@
-var template = `<ul>
-  <li><a href="#">home</a></li>
-</ul>`;
-console.log(template);
+var first = 'ungmo';
+var last = 'lee';
+
+console.log('my name is' + first + ' ' + last + '.');
