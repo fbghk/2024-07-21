@@ -1,1 +1,3 @@
-var 이름;
+var first-name;
+var 1st;
+var this;
