@@ -1,26 +1,19 @@
-var foo;
-console.log(typeof foo);
+//산술 연산자
+5*4 // -> 20
 
-foo = 3;
-console.log(typeof foo);
+//문자열 연결 연산자
+'my name is ' + 'lee' //-> 'my name is lee'
 
-foo = 'hello';
-console.log(typeof foo);
+//할당 연산자
+color = 'red' // -> 'red'
 
-foo = true;
-console.log(typeof foo);
+//비교 연산자
+3>5 // -> false
 
-foo = null;
-console.log(typeof foo);
+//논리 연산자
+true && false // ->false
 
-foo = Symbol();
-console.log(typeof foo);
+//타입연산자
+typeof 'hi' // -> string
 
-foo = {};
-console.log(typeof foo);
 
-foo = [];
-console.log(typeof foo);
-
-foo = function () {};
-console.log(typeof foo);
