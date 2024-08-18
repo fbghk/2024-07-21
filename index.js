@@ -1,12 +1,25 @@
-//부호를 반전한다.
-x = -(-10); // -> 10
-console.log(x)
-// 문자열을 숫자로 타입 변환한다.
-y = -'10'; // -> -10
-console.log(y)
-// 불리언 값을 숫자로 타입 변환한다.
-z = -true; // -> -1
-console.log(z)
-// 문자열은 숫자로 타입 변환할 수 없으므로 NaN을 반환한다. 
-a = -'Hello'; // -> NaN
-console.log(a)
+var x;
+
+x = 10;
+console.log(x); //10  
+
+x += 5; // x = x + 5;
+console.log(x); //15  
+
+x -= 5; //x = x - 5;
+console.log(x); // 10  
+
+x *= 5; // x = x * 5;
+console.log(x); // 50  
+
+x /= 5; // x = x / 5;
+console.log(x); // 10  
+
+x %= 5; // x = x % 5 //! 나머지 x = 8 이면 출력값 3
+console.log(x); // 0  
+
+var str = 'My name is ';
+
+// 문자열 연결 연산자
+str += 'Lee'; // str = str + 'Lee'
+console.log(str) // 'My name is Lee'
