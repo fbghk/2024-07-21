@@ -1,24 +1,11 @@
-var x = '1';
+//부호를 반전한다.
+-(-10); // -> 10
 
-//문자열을 숫자로 타입 변환한다. 
-console.log(+x); //1
-// 부수 효과는 없다.
-console.log(x); //"1"
-
-//불리언 값을 숫자로 타입 변환한다.
-x = true;
-console.log(+x); //1
-//부수 효과는 없다.
-console.log(x); // true
+// 문자열을 숫자로 타입 변환한다.
+-'10'; // -> -10
 
 // 불리언 값을 숫자로 타입 변환한다.
-x = false;
-console.log(+x); // 0
-// 부수 효과는 없다. 
-console.log(x); //false
+-true; // -> -1
 
-//문자열을 숫자로 타입 변환할 수 없으므로 NaN을 반환한다.
-x = 'Hello';
-console.log(+x); //NaN
-//부수 효과는 없다.
-console.log(x); // "Hello"
+// 문자열은 숫자로 타입 변환할 수 없으므로 NaN을 반환한다. 
+-'Hello'; // -> NaN
