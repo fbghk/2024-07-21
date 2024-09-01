@@ -1,3 +1,5 @@
-//양의 0과 음의 0의 비교. 일치 비교/동등 비교 모두 결과는 true다.
-0 === -0; // -> true
-0 == -0; // -> true
+-0 === +0;          // -> true
+Object.is(-0, +0);  // -> false
+
+NaN === NaN;        // -> false
+Object.is(NaN, NaN);// -> true
