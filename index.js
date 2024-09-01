@@ -1,5 +1,9 @@
--0 === +0;          // -> true
-Object.is(-0, +0);  // -> false
+//부동등 비교
+5 != 8;      // -> true
+5 != 5;      // -> false
+5 != '5';    // -> false
 
-NaN === NaN;        // -> false
-Object.is(NaN, NaN);// -> true
+//불일치 비교
+5 !== 8;     // -> true
+5 !== 5;     // -> false
+5 !== '5';   // -> true
