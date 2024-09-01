@@ -1,8 +1,6 @@
-// 동등 비교, 결과를 예측하기 어렵다.
- '0' = ''; // -> false
-0 == ''; // -> true
-0 == '0'; // -> true
-false == 'false'; // -> false
-false == '0';     // -> true
-false == null;    // -> false
-false == undefined// -> false
+//일치 비교
+5 === 5; // -> true
+
+// 암묵적 타입 변환을 하지 않고 값을 비교한다.
+// 즉, 값과 타입이 모두 같은 경우만 true를 반환한다.
+5 === '5'; // -> false
