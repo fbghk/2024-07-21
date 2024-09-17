@@ -1,3 +1,5 @@
-// 지수 연산자의 결합 순서는 우항에서 좌항이다. 즉, 우결합성을 갖는다.
-2 ** (3 ** 2);                // -> 512
-Math.pow(2, Math.pow(3, 2));  // -> 512
+-5 ** 2;
+// SyntaxError: Unary operator used immediately before exponentiation expression. 
+// Parenthesis must be used to disambiguate operator precedence
+
+(-5) ** 2; // -> 25
