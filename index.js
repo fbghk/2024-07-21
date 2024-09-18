@@ -1,5 +1,5 @@
 var string = 'Hello World.';
-var search = '1';
+var search = 'l';
 var index;
 
 //문자열은 유사 배열이므로 for 문으로 순회할 수 있다.
@@ -12,3 +12,5 @@ for (var i = 0; i < string.length; i++) {
 }
 
 console.log(index); //2
+//참고로 String.prototype.indexOf 매서드를 사용해도 같은 동작을 한다.
+console.log(string.indexOf(search)); // 2
