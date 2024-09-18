@@ -1,2 +1,9 @@
-// 무한루프 조건식의 평가 결과가 언제나 참이면 무한루프가 된다.
-while (true) { ... }
+var count = 0;
+
+// 무한루프
+while (true) {
+  console.log(count); 
+  count++;
+  // count가 3이면 코드 블록을 탈출한다.
+  if (count === 3) break;
+} // 0 1 2
