@@ -1,15 +1,21 @@
-var string = 'Hello World.';
-var search = 'l';
-var count = 0 ;
-
-// 문자열은 유사 배열이므로 for 문으로 순회할 수 있다.
+// continue 문을 사용하지 않으면 if 문 내에 코드를 작성해야 한다.
 for (var i = 0; i < string.length; i++){
-  //'l' 이면 카운트를 증가시킨다.
-  if (string[i] === search) count++;
+  // 'l'이면 카운트를 증가시킨다.
+  if (string[i] === search){
+    count++;
+    //code
+    //code
+    //code
+  }
 }
 
-console.log(count); // 3
-
-//참고로 String.prototype.match 매서드를 사용해도 같은 동작을 한다.
-const regexp = new RegExp(search, 'g');
-console.log(string.match(regexp).length); // 3
+// continue 문을 사용하지 않으면 if 문 내에 코드를 작성할 수 없다.
+for (var i = 0; i < string.length; i++){
+  // 'l'이 아니면 카운트를 증가시키지 않는다.
+  if (string[i] === search) continue;
+  
+    count++;
+    //code
+    //code
+    //code
+}
