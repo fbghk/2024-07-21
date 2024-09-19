@@ -1,1 +1,1 @@
-'cat' && 'dog' // -> 'dog'
+'cat' || 'dog' // -> 'cat'
