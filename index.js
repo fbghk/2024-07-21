@@ -1,4 +1,16 @@
-var elem = null;
-// elem이 null이나 undefined와 같은 Falsy 값이면 elem으로 평가되고
-// elem이 Truthy 값이면 
-var value = elem && elem.value; // -> null
+// 단축 평가를 사용한 매개변수의 기본값 설정
+function getStringLength(str) {
+  str = str || '';
+  return str.length;
+}
+
+getStringLength();      // -> 0
+getStringLength('hi');  // -> 2
+
+// ES6의 매개변수의 기본값 설정
+function getStringLength(str = '') {
+  return str.length;
+}
+
+getStringLength();      // -> 0
+getStringLength('hi');  // -> 2
