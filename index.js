@@ -1,9 +1,10 @@
-// 논리합 (||) 연산자
-'Cat' || 'Dog' // -> 'Cat'
-false || 'Dog' // -> 'Dog'
-'Cat' || false // -> 'Cat'
+var done = true;
+var message = '';
 
-// 논리곱 (&&) 연산자
-'Cat' && 'Dog' // -> 'Dog'
-false && 'Dog' // -> false
-'Cat' && false // -> false
+//주어진 조건이 true일 때
+if (done) message = '완료';
+
+// if 문은 단축 평가로 대체 가능하다.
+// done이 true라면 message에 '완료'를 할당
+message = done && '완료';
+console.log(message); // 완료
