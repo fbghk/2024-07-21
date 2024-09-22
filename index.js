@@ -1,11 +1,4 @@
-var done = true;
-var message = '';
-
-// if... else 문
-if (done) message = '완료';
-else      message = '미완료';
-console.log(message); // 완료
-
-// if...else 문은 삼향 조건 연산자로 대체 가능하다.
-message = done ? '완료' : '미완료';
-console.log(message); // 완료
+var elem = null;
+var value = elem.value; 
+// TypeError: Cannot read properties of null (reading 'value')
+// TypeError: Cannot read property 'value' of null
