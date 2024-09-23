@@ -1,6 +1,4 @@
-var str = '';
-
-// 문자열의 길이(length)를 참조한다. 이때 좌향 피연산자가 false로 평가되는 Falsy 값이라도
-//null 또는 undefined가 아니면 우향의 프로퍼티 참조를 이어간다.
-var length = str?.length;
-console.log(length); // 0
+// 좌항의 피연산자가 null 또는 undefined이면 우항의 피연산자를 반환하고,
+// 그렇지 않으면 좌항의 피연산자를 반환한다.
+var foo = null ?? 'default string';
+console.log(foo); // "default string"
