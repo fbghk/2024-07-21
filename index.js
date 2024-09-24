@@ -1,3 +1,9 @@
-// 좌항의 피연산자가 Falsy 값이라도 null 또는 undefined가 아니면 좌항의 피연산자를 반환한다.
-var foo = '' ?? 'default string';
-console.log(foo); // ""
+var person = {
+  name: 'Lee',
+  sayHello: function () {
+    console.log ('hello! my name is ${this.name}. ');
+  }
+};
+
+console.log(typeof person) // object
+console.log(person); // {name: "Lee", sayHello: f} 
