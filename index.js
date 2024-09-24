@@ -1,9 +1,2 @@
-var person = {
-  name: 'Lee',
-  sayHello: function () {
-    console.log ('hello! my name is ${this.name}. ');
-  }
-};
-
-console.log(typeof person) // object
-console.log(person); // {name: "Lee", sayHello: f} 
+var empty = { }; // 빈 객체
+console.log(typeof empty) // object
