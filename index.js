@@ -1,6 +1,6 @@
 var foo = {
-  var : '',
-  function : '',
+  name : 'Lee',
+  name : 'Kim',
 }; 
 
-console.log(foo); // {var : "", function : ""}
+console.log(foo); // {name : "Kim"}
