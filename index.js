@@ -1,10 +1,9 @@
-var circle = {
-  radius: 5, // <- 프로퍼티
-
-  // 원의 지름
-  getDiameter: function () { // <- 메서드
-    return 2 * this.radius; // this는 circle을 가리킨다.
-  }
+var person = {
+  name: 'Lee'
 };
 
-console.log(circle.getDiameter()); // 10
+// 마침표 표기법에 의한 프로퍼티 접근
+console.log(person.name); // Lee
+
+// 대괄호 표기법에 의한 프로퍼티 접근
+console.log(person['name']); // Lee
