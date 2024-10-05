@@ -1,10 +1,7 @@
-// ES6
-const obj = {
-  name: 'Lee',
-  //메서드 축약 표현
-  sayHi() {
-    console.log('Hi! ' + this.name);
-  }
-};
+// const 키워드를 사용해 선언한 변수는 재할당이 금지된다. 상수는 재할당이 금지된 변수일 뿐이다.
+const o = {};
 
-obj.sayHi(); // Hi! Lee
+// const 키워드를 사용해 선언한 변수에 할당한 원시 값(상수)은 변경할 수 없다.
+// 하지만 const 키워드를 사용해 선언한 변수에 할당한 객체는 변경할 수 있다.
+o.a = 1;
+console.log(o); // {a: 1}
