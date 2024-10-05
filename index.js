@@ -1,7 +1,8 @@
-// ES5
-var obj = {
+// ES6
+const obj = {
   name: 'Lee',
-  sayHi: function() {
+  //메서드 축약 표현
+  sayHi() {
     console.log('Hi! ' + this.name);
   }
 };
