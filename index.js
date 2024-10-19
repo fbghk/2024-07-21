@@ -1,1 +1,3 @@
-var copy = score;
+var person = {
+  name: 'Lee'
+};
